@@ -4,7 +4,11 @@
 // - Then uses the .filter() method to return a filtered array of books containing that genre.
 
 //Write filterByGenre(books, genre) below here:
-
+function filterByGenre(books, genre) {
+  return books.filter(function(booksArray) {
+    return booksArray.genre === genre;
+  } )
+}
 
 const books = [
   {
